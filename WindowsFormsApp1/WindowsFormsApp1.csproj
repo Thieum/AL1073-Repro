@@ -19,6 +19,9 @@
     <DebugType>portable</DebugType>
     <LangVersion>9</LangVersion>
   </PropertyGroup>
+  <PropertyGroup>
+    <AlToolPath>$(TargetFrameworkSDKToolsDirectory)</AlToolPath>
+</PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\x86\Debug\</OutputPath>
